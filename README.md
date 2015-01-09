@@ -1,4 +1,4 @@
-udresume
-========
+Interactive Resume
+==================
 
-Highcharts theme taken from [http://www.highcharts.com/demo/scatter/dark-unica]
+Original code part of project 2 in Udacity's Front End Web Development Nanodegree.
