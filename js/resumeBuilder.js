@@ -139,7 +139,7 @@ var projects = {
 			"datesWorked": "October 2014",
 			"description": "Created an online portfolio of work as part of Udacity's Front-End Web Developer " +
 			"Nanodegree.",
-			"images": ["images/zen_garden_crop.jpg"],
+			"images": ["images/portfolio.jpg"],
 			"url": "http://www.cherylcourt.ca/"
 		},
 		{
