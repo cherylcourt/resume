@@ -19,7 +19,7 @@ var work = {
 			"title": "Senior Software Developer",
 			"location": "Edmonton, Alberta, Canada",
 			"datesWorked": "March 2015 - December 2015",
-			"description": "I was hired to work on the online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
+			"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
 				"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
 				"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
 				"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
