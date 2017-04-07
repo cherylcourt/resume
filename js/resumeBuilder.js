@@ -8,7 +8,8 @@ var bio = {
 		"location": "Edmonton, Alberta, Canada"
 	},
 	"picture": "images/me.png",
-	"welcomeMessage": "I'm currently working as a Software Developer in Edmonton, Alberta, Canada.  Thanks for stopping by!",
+	"welcomeMessage": "I'm currently working as a Software Developer in the Edmonton, Alberta area. I love solving problems and providing '+
+	"solutions that save people time and money and help their day to day lives. Thanks for stopping by!",
 	"skills": ["Ruby on Rails", "Java", "python", "Software Development", "Test Driven Development"]
 };
 
