@@ -9,7 +9,7 @@ var bio = {
 	},
 	"picture": "images/me.png",
 	"welcomeMessage": "I'm currently working as a Software Developer in Edmonton, Alberta, Canada.  Thanks for stopping by!",
-	"skills": ["Java", "python", "Software Development", "Test Driven Development", "Retrospective Facilitation"]
+	"skills": ["Ruby on Rails", "Java", "python", "Software Development", "Test Driven Development", "Retrospective Facilitation"]
 };
 
 var work = {
