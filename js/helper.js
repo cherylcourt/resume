@@ -98,12 +98,14 @@ This is the fun part. Here's where we generate the custom Google Map for the web
 See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
+
 var map;    // declares a global map variable
 
 
 /*
 Start here! initializeMap() is called when page is loaded.
 */
+/* -- TODO: Commenting this out because google map api stuff needs to be updated
 function initializeMap() {
 
   var locations;        
@@ -115,7 +117,7 @@ function initializeMap() {
   // This next line makes `map` a new Google Map JavaScript Object and attaches it to
   // <div id="map">, which is appended as part of an exercise late in the course.
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
-
+-- */
 
   /*
   locationFinder() returns an array of every location string from the JSONs
@@ -149,6 +151,7 @@ function initializeMap() {
   placeData is the object returned from search results containing information
   about a single location.
   */
+/* -- TODO
   function createMapMarker(placeData) {
 
     // The next lines save location data from the search result object to local variables
@@ -184,21 +187,23 @@ function initializeMap() {
     // center the map
     map.setCenter(bounds.getCenter());
   }
-
+--*/
   /*
   callback(results, status) makes sure the search returned results for a location.
   If so, it creates a new map marker for that location.
   */
+/* -- TODO
   function callback(results, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
       createMapMarker(results[0])
     }
   }
-
+-- */
   /*
   pinPoster(locations) takes in the array of locations created by locationFinder()
   and fires off Google place searches for each location
   */
+/* -- TODO
   function pinPoster(locations) {
 
     // creates a Google place search service object. PlacesService does the work of
@@ -230,11 +235,11 @@ function initializeMap() {
   pinPoster(locations);
   
 };
-
+--*/
 /*
 Uncomment all the code below when you're ready to implement a Google Map!
 */
-
+/* -- TODO
 // Calls the initializeMap() function when the page loads
 window.addEventListener('load', initializeMap);
 
@@ -244,3 +249,4 @@ window.addEventListener('resize', function(e) {
   // Make sure the map bounds get updated on page resize
   map.fitBounds(mapBounds);
 });
+-- */
