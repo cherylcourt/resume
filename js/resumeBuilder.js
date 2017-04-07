@@ -9,16 +9,39 @@ var bio = {
 	},
 	"picture": "images/me.png",
 	"welcomeMessage": "I'm currently working as a Software Developer in Edmonton, Alberta, Canada.  Thanks for stopping by!",
-	"skills": ["Java", "python", "Software Development", "Test Driven Development", "Retrospective Facilitation"]
+	"skills": ["Ruby on Rails", "Java", "python", "Software Development", "Test Driven Development"]
 };
 
 var work = {
 	"jobs": [
 		{
+			"employer": "The Luxus Group",
+			"title": "Senior Software Developer",
+			"location": "Sherwood Park, Alberta, Canada",
+			"datesWorked": "January 2016 - Present",
+			"description": "I was specifically hired to help deliver the new online reservation system for Luxus Vacation Properties. This involved quickly "+
+				"getting up to speed on a number of technologies, including Ruby On Rails, Ember, and Ember Data to name a few as well as "+
+				"quickly becoming familiar with business needs. I "+
+				"collaborated closely with the business and other team members to ensure project success. "+
+				"We successfully delivered the site in April 2017 and continue to make iterative improvements and add features as "+
+				"needed."
+		},
+		{
+			"employer": "Localize",
+			"title": "Senior Software Developer",
+			"location": "Edmonton, Alberta, Canada",
+			"datesWorked": "March 2015 - December 2015",
+			"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
+				"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
+				"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
+				"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
+				"from everyone I worked with there."
+		},
+		{
 			"employer": "Enbridge",
 			"title": "Software Developer",
 			"location": "Edmonton, Alberta, Canada",
-			"datesWorked": "September 2008 - Present",
+			"datesWorked": "September 2008 - March 2015",
 			"description": "My primary responsibilities involve all aspects of developing and supporting critical software " +
 				"applications in a variety of languages including Java, python, C++ and Perl in both greenfield and " +
 				"legacy systems.  This work includes, but is not limited to, database design, software architecture design, high level and " +
@@ -337,6 +360,31 @@ $(function () {
 			}
 		},
 		series: [{
+				name: 'Ruby',
+				color: 'rgba(255, 0, 0, .5)',
+				data: [[2017, 4], [2016, 12]]
+			},
+			{
+				name: 'Javascript',
+				color: 'rgba(204, 0, 0, .5)',
+				data: [[2017, 4], [2016, 12], [2015, 8], [2014, 1]]
+			},
+			{
+				name: 'HTML/CSS',
+				color: 'rgba(153, 51, 0, .5)',
+				data: [[2017, 4], [2016, 12], [2015, 8], [2014, 5], [2002, 3], [2008, 4], [2005, 2]]
+			},
+			{
+				name: 'Web Development',
+				color: 'rgba(0, 153, 102, .5)',
+				data: [[2017, 4], [2016, 12], [2015, 8], [2014, 2]]
+			},
+			{
+				name: 'TDD',
+				color: 'rgba(0, 102, 51, .5)',
+				data: [[2016, 12], [2014, 12], [2013, 12], [2012, 12], [2011, 4]]
+			},
+			{
 				name: 'Java',
 				color: 'rgba(223, 83, 83, .5)',
 				data: [[2014, 11], [2013, 11], [2012, 11], [2011, 8], [2010, 4], [2009, 12], [1998, 8], [1999, 8], [2000, 4]]
@@ -349,7 +397,7 @@ $(function () {
 			{
 				name: 'SQL',
 				color: 'rgba(119, 152, 80, .5)',
-				data: [[2013, 2]]
+				data: [[2016, 12], [2013, 2]]
 			},
 			{
 				name: 'PL/SQL',
@@ -365,26 +413,6 @@ $(function () {
 				name: 'C',
 				color: 'rgba(0, 102, 0, .5)',
 				data: [[1997, 8], [2004, 2], [2008, 4]]
-			},
-			{
-				name: 'Javascript',
-				color: 'rgba(204, 0, 0, .5)',
-				data: [[2014, 1]]
-			},
-			{
-				name: 'HTML/CSS',
-				color: 'rgba(153, 51, 0, .5)',
-				data: [[2014, 5], [2002, 3], [2008, 4], [2005, 2]]
-			},
-			{
-				name: 'Web Development',
-				color: 'rgba(0, 153, 102, .5)',
-				data: [[2014, 2]]
-			},
-			{
-				name: 'TDD',
-				color: 'rgba(0, 102, 51, .5)',
-				data: [[2014, 12], [2013, 12], [2012, 12], [2011, 4]]
 			},
 			{
 				name: 'Django',
