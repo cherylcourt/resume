@@ -15,6 +15,18 @@ var bio = {
 var work = {
 	"jobs": [
 		{
+			"employer": "The Luxus Group",
+			"title": "Senior Software Developer",
+			"location": "Sherwood Park, Alberta, Canada",
+			"datesWorked": "January 2016 - Present",
+			"description": "I was specifically hired to help deliver the new online reservation system for Luxus Vacation Properties. This involved quickly "+
+				"getting up to speed on a number of technologies, including Ruby On Rails, Ember, and Ember Data to name a few as well as "+
+				"quickly becoming familiar with business needs. I "+
+				"collaborated closely with the business and other team members to ensure project success. "+
+				"We successfully delivered the site in April 2017 and continue to make iterative improvements and add features as "+
+				"needed."
+		},
+		{
 			"employer": "Localize",
 			"title": "Senior Software Developer",
 			"location": "Edmonton, Alberta, Canada",
