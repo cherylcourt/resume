@@ -87,7 +87,7 @@ a {
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #015483;
   display: none;
 }
 
@@ -96,11 +96,11 @@ a {
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #015483;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #015483;
 }
 
 .white-text {
@@ -109,7 +109,7 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #999999;
   padding-bottom: 10px;
   clear:both;
 }
