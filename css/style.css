@@ -87,7 +87,7 @@ a {
 }
 
 #skillsH3 {
-  color: #015483;
+  color: #F5AE23;
   display: none;
 }
 
@@ -96,11 +96,11 @@ a {
 }
 
 .orange {
-  background-color: #015483;
+  background-color: #F5AE23;
 }
 
 .orange-text {
-  color: #015483;
+  color: #F5AE23;
 }
 
 .white-text {
@@ -120,7 +120,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #999999;
+  background-color: #484848;
 }
 
 .flex-box {
